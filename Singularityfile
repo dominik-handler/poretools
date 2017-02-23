@@ -1,3 +1,10 @@
 Bootstrap: docker
 From: ubuntu:latest
-IncludeCmd: yes
+
+
+%runscript
+
+%post
+
+%test
+  poretools -h
