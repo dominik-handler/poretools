@@ -6,7 +6,7 @@ MirrorURL: http://us.archive.ubuntu.com/ubuntu/
 
 
 %runscript
-  poretools
+  poretools "$@"
 
 %post
     apt-get --assume-yes install wget
