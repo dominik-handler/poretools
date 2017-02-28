@@ -45,11 +45,11 @@ MirrorURL: http://us.archive.ubuntu.com/ubuntu/
     
     
     #increase swap-size
-      sudo mkdir /swaps
-      sudo dd if=/dev/zero of=/swaps/swapfile bs=1024 count=$((1024 * 1024))
-      sudo mkswap /swaps/swapfile
-      sudo chmod 600 /swaps/swapfile
-      sudo swapon /swaps/swapfile
+      #sudo mkdir /swaps
+      #sudo dd if=/dev/zero of=/swaps/swapfile bs=1024 count=$((1024 * 1024))
+      #sudo mkswap /swaps/swapfile
+      #sudo chmod 600 /swaps/swapfile
+      #sudo swapon /swaps/swapfile
 
     
     git clone https://github.com/arq5x/poretools /tmp/poretools
