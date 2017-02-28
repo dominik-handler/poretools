@@ -1,4 +1,4 @@
-#poretools in singularity
+#poretools in singularity new
 
 BootStrap: debootstrap
 OSVersion: trusty
