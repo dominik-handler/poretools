@@ -33,6 +33,9 @@ MirrorURL: http://us.archive.ubuntu.com/ubuntu/
     
     sudo apt-get -y install build-essential
     sudo apt-get -y install git python-tables python-setuptools python-pip python-dev cython libhdf5-serial-dev r-base python-rpy2
+    
+    sudo pip install --upgrade pip
+    sudo pip install --upgrade six
      
     sudo pip install numexpr --upgrade
     sudo pip install h5py
