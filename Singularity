@@ -63,9 +63,9 @@ MirrorURL: http://us.archive.ubuntu.com/ubuntu/
     mkdir /groups
     mkdir /clustertmp
     
-    sudo apt-get remove -y libhdf5-serial-dev python-dev python-setuptools libfreetype6-dev
-    sudo apt-get -y autoclean
-    sudo apt-get -y clean
+   # sudo apt-get remove -y libhdf5-serial-dev python-dev python-setuptools libfreetype6-dev
+   # sudo apt-get -y autoclean
+   # sudo apt-get -y clean
 
 %test
   poretools -h
